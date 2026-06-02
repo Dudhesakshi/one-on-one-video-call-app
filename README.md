@@ -1,16 +1,128 @@
-> # React + Vite 🌐
+# 🎥 One-on-One Video Call App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time video calling web application built using **React**, **Vite**, and **ZEGOCLOUD**. Users can create or join a room and connect instantly through live audio and video communication.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 Netlify Deployment: https://one-on-one-video-call-app.netlify.app
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* One-on-One Video Calling
+* Room-Based Communication
+* Real-Time Audio & Video Streaming
+* Responsive User Interface
+* Fast Build with Vite
+* Easy Room Sharing
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+
+* React.js
+* React Router DOM
+* Vite
+* CSS
+
+### Video Calling
+
+* ZEGOCLOUD UIKit Prebuilt
+
+### Deployment
+
+* Netlify
+
+## 📂 Project Structure
+
+```bash
+src/
+├── App.jsx
+├── VideoRoom.jsx
+├── ZegoCloud.jsx
+├── main.jsx
+├── App.css
+└── index.css
+
+public/
+├── favicon.svg
+└── icons.svg
+```
+
+## ⚙️ Installation & Setup
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Dudhesakshi/one-on-one-video-call-app.git
+cd one-on-one-video-call-app
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run the Project
+
+```bash
+npm run dev
+```
+
+Application runs at:
+
+```bash
+http://localhost:5173
+```
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+Preview Production Build:
+
+```bash
+npm run preview
+```
+
+## 🌐 Deployment
+
+This project is deployed on Netlify.
+
+### Deployment Steps
+
+1. Push code to GitHub.
+2. Import repository into Netlify.
+3. Configure build settings:
+
+```bash
+Build Command: npm run build
+Publish Directory: dist
+```
+
+4. Deploy the site.
+
+
+
+
+
+## 🔮 Future Enhancements
+
+* User Authentication
+* Screen Sharing
+* Chat Messaging
+* Call History
+* Multiple Participants Support
+* Recording Functionality
+
+## 👩‍💻 Author
+
+**Sakshi Dudhe**
+
+GitHub: https://github.com/Dudhesakshi
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a star on GitHub.
